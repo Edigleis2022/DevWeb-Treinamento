@@ -1,0 +1,49 @@
+/* Normalize */
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+}
+#app{
+  background-color: #3390E1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formLogin{
+  background-color: white;
+  width: 450px;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 11px;
+}
+.formLogin h1{
+  color: #3309E1;
+}
+.formLogin button{
+  width: 100%;
+  padding: 10px;
+}
+.formLogin input{
+  padding: 10px;
+}
+.formLogin input:invalid{
+  border: solid 2px #e13356;
+}
+.formLogin input:valid{
+  border: solid 2px #33e1aa;
+}
+.formLogin label{
+  width: 100%;
+}
+.formLogin a{
+  font-size: 20px;
+}
